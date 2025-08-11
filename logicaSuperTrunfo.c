@@ -33,8 +33,8 @@ int main() {
     int numero_pontos_turisticos2; // Número de pontos turísticos
     float area_em_km2; // Área em km²
     float pib2; // PIB
-    float densidadePopulacional2 = populacao2 / area_em_km2; // Para esse calculo: população / area da cidade
-    float PIBperCapita2 = pib2 / populacao2; // Para esse calculo: pib / população
+    float densidadePopulacional2; // Para esse calculo: população / area da cidade
+    float PIBperCapita2; // Para esse calculo: pib / população
 
     // Cadastro das Cartas:
     // scanf para capturar as entradas do usuário para cada atributo.
@@ -138,7 +138,7 @@ int main() {
     printf( "\n A campeã....\n");
      
     // Estrutura de condicionamento da disputa entre as cartas
-    
+
     if(PIBperCapita1 > PIBperCapita2){
         printf(" %s, venceu o desafio!!! \n CODIGO DA CARTA: %s \n", nome_da_cidade1, codigo_da_carta1 );
     }
